@@ -47,7 +47,7 @@ export default function Projects() {
                   width="100%"
                 />
               </div>
-              <p className="title">{item.name}</p>
+              <p className="title">{item.name} {item.homepage && <a href={item.homepage} target="__blank">[ Demo ]</a>}</p>
               <p className="description">{item.description}</p>
             </div>
           </a>

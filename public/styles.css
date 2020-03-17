@@ -400,6 +400,11 @@ a:hover {
   margin: 1em;
 }
 
+.post .description a {
+  font-weight: bolder;
+  color: #833ab4;
+}
+
 .post .title {
   text-transform: capitalize;
   font-weight: bold;
